@@ -62,7 +62,7 @@ jobs:
 
 
 
-    working_directory: ~/example-rubygems-circle
+    working_directory: ~/test-ruby-project
 
 
 
@@ -231,7 +231,5 @@ jobs:
 
 
       - run:
-
-
-
+      
             bash <(curl -s https://scripts.scantist.com/staging/ci-circle-jar.sh)
